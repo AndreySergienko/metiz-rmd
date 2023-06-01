@@ -1,0 +1,44 @@
+.search .v-input__control {
+    width: 550px;
+
+    height: 51px;
+}
+
+.search .v-label {
+    opacity: 1;
+
+    color: #95A4C0;
+}
+
+.search i {
+    color: #4C86DE;
+    opacity: 1 !important;
+}
+
+.search input {
+    color: var(--color-gray-4);
+}
+
+.search .v-field__outline {
+    border: 1px solid var(--color-gray-3);
+}
+
+.search .v-field__outline::before {
+    opacity: 1;
+    border: 0;
+}
+
+.search .v-field--focused .v-field__outline::after {
+    border: 0 !important;
+    display: none;
+}
+
+.search-margin .v-input__control {
+    margin-left: auto;
+}
+
+.search-margin input {
+    padding: 0;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}

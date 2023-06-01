@@ -1,0 +1,86 @@
+/* delete mask on label */
+.field .v-label {
+    opacity: 1;
+    margin-left: 0;
+}
+
+/* select */
+.field--select i {
+    color: var(--color-light-blue);
+    padding-bottom: 10px;
+}
+
+.field--select .v-label {
+    opacity: 1 !important;
+    top: 7px !important;
+}
+
+.field--select .v-field__append-inner {
+    padding-bottom: 5px;
+}
+
+.filed--select-small {
+    max-width: 150px;
+}
+
+.field--select-big {
+    max-width: 230px;
+    width: 100%;
+}
+
+/* set style in label dont active */
+.field label:not(.v-field-label--floating) {
+    color: var(--color-dark);
+    top: 15px;
+}
+
+/* clear hover bg */
+.v-field__overlay {
+    opacity: 0 !important;
+}
+
+/* inner icon */
+.field i {
+    top: 8px;
+    font-size: 22px;
+}
+
+/* set style in label active */
+.field .v-field-label--floating {
+    color: var(--color-light-blue) !important;
+}
+
+/* correct padding in input */
+.field input {
+    padding-bottom: 5px;
+    padding-left: 0;
+}
+
+/* clear padding left in errors msg */
+.field .v-input__details {
+    padding-left: 0;
+}
+
+/* for checkbox */
+.field--checkbox .v-label {
+    opacity: 1;
+    padding-left: 10px;
+}
+
+/* for btn */
+.btn {
+    border-radius: 0;
+}
+
+.btn .v-btn--variant-elevated {
+    box-shadow: none;
+}
+
+/* text */
+.btn .v-btn__content {
+    text-transform: capitalize;
+    font-size: var(--font-size-primary);
+    font-weight: 400;
+    letter-spacing: normal;
+    text-indent: initial;
+}

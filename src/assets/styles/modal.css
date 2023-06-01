@@ -1,0 +1,36 @@
+.modal__title {
+    font-weight: 600 !important;
+    font-size: 30px !important;
+
+    letter-spacing: normal !important;
+    line-height: normal !important;
+}
+
+.modal__block-text {
+    text-align: left !important;
+}
+
+.modal__close {
+    position: absolute !important;
+    right: 40px !important;
+    top: 30px !important;
+    z-index: 2 !important;
+}
+
+.modal__close--dark {
+    right: -60px !important;
+    top: -50px !important;
+}
+
+.modal__close--dark button {
+    border-radius: 50% !important;
+}
+
+.modal__close--dark path {
+    stroke: var(--color-dark) !important;
+}
+
+.modal__close-icon {
+    min-width: 15px !important;
+    min-height: 15px !important;
+}
