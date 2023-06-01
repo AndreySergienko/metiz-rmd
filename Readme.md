@@ -1,6 +1,6 @@
 # Metiz HH
 
-## Technology: Vue 3 + Pinia + Router + Vuetify + Docker
+## Technology: Vue 3 + Pinia + Router + Vuetify + Docker + Unit Testing + CI
 
 ### Description
 
